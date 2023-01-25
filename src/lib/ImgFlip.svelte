@@ -40,26 +40,26 @@
 	} */
 	@keyframes photos {
 		0% {
-			background-image: url(gif01_low.webp);
+			background-image: url(./gif01_low.webp);
 			transform: scale(1) rotate(100deg);
 		}
 
 		25% {
-			background-image: url(gif02_low.webp);
+			background-image: url(./gif02_low.webp);
 			transform: scale(1.2) rotate(25deg);
 		}
 
 		50% {
-			background-image: url(gif03_low.webp);
+			background-image: url(./gif03_low.webp);
 			transform: scale(1) rotate(50deg);
 		}
 
 		75% {
-			background-image: url(gif04_low.webp);
+			background-image: url(./gif04_low.webp);
 			transform: scale(1.2) rotate(75deg);
 		}
 		100% {
-			background-image: url(gif01_low.webp);
+			background-image: url(./gif01_low.webp);
 			transform: scale(1) rotate(100deg);
 		}
 	}
