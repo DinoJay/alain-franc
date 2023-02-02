@@ -1,13 +1,45 @@
-<div class="bg-cover" />
+<script>
+	import { fade } from 'svelte/transition';
+
+	let visible = null;
+
+	setTimeout(() => {
+		visible = true;
+	}, 6000);
+</script>
+
+<div
+	class="bg-contain bg"
+	style="{`background-image: url(/gif_E_Low.webp); transform: rotate(-0deg) `} "
+>
+	{#if visible}
+		<div class="w-full h-full bg-white" transition:fade>
+			Ils font tutu-panpan à l'automne et emménagent au pringtemps suivant. Ils rénovent une maison
+			de vacances et s'échangent leurs promesses. Ensemble ils vont se dire Oui ! Alain + François
+			se marient. Ils ont le plaisir de vous accueillir sous le thème de la folie et de l'élégance
+			tropicale Le 15 juillet 2023 à 16h R. Conselheiro Dr. Antero P. Leitão 13, 3060-082, Portugal
+		</div>
+	{/if}
+</div>
 
 <style>
-	div {
-		width: 800px;
-		height: 667px;
-		animation: photos 6s infinite;
+	.bg {
+		width: 100vw;
+		height: 100vh;
+		max-width: 800px;
+		max-height: 667px;
+		/* animation: photos 6s infinite; */
 		background-repeat: no-repeat;
+		animation-delay: 1s;
+		animation-name: photos;
+		animation-duration: 6s;
+		/* animation-iteration-count: 1; */
 		/* animation-timing-function: ease-out; */
 	}
+
+	/* div::before {
+		content: " Ils font tutu-panpan à l'automne et emménagent au pringtemps suivant. Ils rénovent une maison de vacances et s'échangent leurs promesses. Ensemble ils vont se dire Oui ! Alain + François se marient. Ils ont le plaisir de vous accueillir sous le thème de la folie et de l'élégance tropicale Le 15 juillet 2023 à 16h R. Conselheiro Dr. Antero P. Leitão 13, 3060-082, Portugal";
+	} */
 
 	/* @keyframes photos {
 		0% {
@@ -40,27 +72,28 @@
 	} */
 	@keyframes photos {
 		0% {
-			background-image: url(/gif01_low.webp);
-			transform: scale(1) rotate(100deg);
+			background-image: url(/gif_A_Low.webp);
+			transform: scale(1) rotate(0deg);
 		}
 
 		25% {
-			background-image: url(/gif02_low.webp);
+			background-image: url(/gif_B_Low.webp);
 			transform: scale(1.2) rotate(25deg);
 		}
 
 		50% {
-			background-image: url(/gif03_low.webp);
+			background-image: url(/gif_C_Low.webp);
 			transform: scale(1) rotate(50deg);
 		}
 
 		75% {
-			background-image: url(/gif04_low.webp);
-			transform: scale(1.2) rotate(75deg);
+			background-image: url(/gif_D_Low.webp);
+			transform: scale(1.2) rotate(-25deg);
 		}
 		100% {
-			background-image: url(/gif01_low.webp);
-			transform: scale(1) rotate(100deg);
+			background-image: url(/gif_E_Low.webp);
+			transform: scale(1) rotate(0deg);
+			/* content: 'babababa'; */
 		}
 	}
 </style>
