@@ -8,10 +8,7 @@
 	}, 6000);
 </script>
 
-<div
-	class="bg-contain bg"
-	style="{`background-image: url(/gif_E_Low.webp); transform: rotate(-0deg) `} "
->
+<div class="bg-cover bg" style="{`background-image: url(/gif_E.webp); transform: rotate(-0deg) `} ">
 	{#if visible}
 		<div class="w-full h-full bg-white" transition:fade>
 			Ils font tutu-panpan à l'automne et emménagent au pringtemps suivant. Ils rénovent une maison
@@ -26,8 +23,8 @@
 	.bg {
 		width: 100vw;
 		height: 100vh;
-		max-width: 800px;
-		max-height: 667px;
+		max-width: 600px;
+		max-height: 800px;
 		/* animation: photos 6s infinite; */
 		background-repeat: no-repeat;
 		animation-delay: 1s;
@@ -72,26 +69,26 @@
 	} */
 	@keyframes photos {
 		0% {
-			background-image: url(/gif_A_Low.webp);
+			background-image: url(/gif_A.webp);
 			transform: scale(1) rotate(0deg);
 		}
 
 		25% {
-			background-image: url(/gif_B_Low.webp);
+			background-image: url(/gif_B.webp);
 			transform: scale(1.2) rotate(25deg);
 		}
 
 		50% {
-			background-image: url(/gif_C_Low.webp);
+			background-image: url(/gif_C.webp);
 			transform: scale(1) rotate(50deg);
 		}
 
 		75% {
-			background-image: url(/gif_D_Low.webp);
+			background-image: url(/gif_D.jpeg);
 			transform: scale(1.2) rotate(-25deg);
 		}
 		100% {
-			background-image: url(/gif_E_Low.webp);
+			background-image: url(/gif_E.webp);
 			transform: scale(1) rotate(0deg);
 			/* content: 'babababa'; */
 		}
