@@ -5,7 +5,7 @@
 
 	setTimeout(() => {
 		visible = true;
-	}, 7500);
+	}, 7300);
 </script>
 
 <div
@@ -88,7 +88,7 @@
 		}
 
 		75% {
-			background-image: url(/gif_D.jpeg);
+			background-image: url(/gif_D.webp);
 			transform: scale(1.2) rotate(-25deg);
 		}
 		100% {
