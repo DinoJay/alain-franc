@@ -5,12 +5,15 @@
 
 	setTimeout(() => {
 		visible = true;
-	}, 6000);
+	}, 7500);
 </script>
 
-<div class="bg-cover bg" style="{`background-image: url(/gif_E.webp); transform: rotate(-0deg) `} ">
+<div
+	class="bg-cover bg h-screen w-screen"
+	style="{`background-image: url(/gif_E.webp); transform: rotate(-0deg) `} "
+>
 	{#if visible}
-		<div class="w-full h-full bg-white" transition:fade>
+		<div class="w-full h-full bg-white text" transition:fade>
 			Ils font tutu-panpan à l'automne et emménagent au pringtemps suivant. Ils rénovent une maison
 			de vacances et s'échangent leurs promesses. Ensemble ils vont se dire Oui ! Alain + François
 			se marient. Ils ont le plaisir de vous accueillir sous le thème de la folie et de l'élégance
@@ -20,9 +23,10 @@
 </div>
 
 <style>
+	.text {
+		@apply p-3;
+	}
 	.bg {
-		width: 100vw;
-		height: 100vh;
 		max-width: 600px;
 		max-height: 800px;
 		/* animation: photos 6s infinite; */
