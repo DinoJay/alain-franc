@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<meta name="viewport" content="width=device-width" />
-		%sveltekit.head%
-	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">%sveltekit.body%</div>
-	</body>
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+	<meta name="viewport" content="width=device-width" />
+
+	<link rel="preload" as="image" href="gif_A.webp">
+	<link rel="preload" as="image" href="gif_B.webp">
+	<link rel="preload" as="image" href="gif_C.webp">
+	<link rel="preload" as="image" href="gif_D.webp">
+	<link rel="preload" as="image" href="gif_E.webp">
+	<link rel="preload" as="image" href="gif_F.webp">
+	<link rel="preload" as="image" href="gif_G.webp">
+	%sveltekit.head%
+</head>
+
+<body data-sveltekit-preload-data="hover">
+	<div style="display: contents">%sveltekit.body%</div>
+</body>
+
 </html>
