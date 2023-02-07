@@ -10,33 +10,51 @@
 
 <div
 	class="bg-contain bg bg-center h-screen w-screen"
-	style="{`background-image: url(/gif_A.webp); transform: rotate(-0deg) `} "
+	style="{`background-image: url(/A_low.webp); transform: rotate(-0deg) `} "
 >
 	{#if visible}
-		<div class="w-full h-full bg-white text" transition:fade>
-			<p>Ils font "Tutu-panpan" à l'automne et emménagent ensemble au printemps suivant.</p>
+		<div class="w-full h-full bg-white text text-center " transition:fade>
+			<div class="mb-3">
+				<p class="blu">
+					Ils font "Tutu-panpan" à l'automne et emménagent ensemble au printemps suivant.
+				</p>
+				<p class="beige">Fazem "Tchiki boum" no Outono e mudam-se juntos na Primavera seguinte.</p>
+			</div>
 
-			<p>Fazem "Tchiki boum" no Outono e mudam-se juntos na Primavera seguinte.</p>
-			<p>Ils rénovent une maison de vacances et rêvent d'y célébrer leur union.</p>
-			<p>Eles estão a renovar uma casa de férias e sonham em celebrar a sua união lá.</p>
-			<p>Ensemble ils vont se dire Oui !</p>
-			<p>Juntos eles dirão Sim!</p>
-			<p>Alain + François</p>
-			<p>se marient / casam</p>
-			<p>
-				Ils ont le plaisir de vous accueillir, sous le thème de l'exubérance et de l'élégance
-				tropicale
-			</p>
-			<p>Têm o prazer de vos convidar, sob o tema da exuberância e da elegância tropical.</p>
-			<p>15.07.2023 - 16h00</p>
-			<p>R. Conselheiro Dr. Antero P. Leitão 13, 3060-082, Portugal</p>
+			<div class="mb-3">
+				<p class="blu">Ils rénovent une maison de vacances et rêvent d'y célébrer leur union.</p>
+				<p class="beige">
+					Eles estão a renovar uma casa de férias e sonham em celebrar a sua união lá.
+				</p>
+			</div>
+			<div class="mb-3">
+				<p class="blu">Ensemble ils vont se dire Oui !</p>
+				<p class="beige">Juntos eles dirão Sim!</p>
+			</div>
+			<div class="my-24">
+				<p class="text-2xl font-bold">Alain + François</p>
+				<p><span class="blu">se marient</span> / <span class="beige">casam</span></p>
+			</div>
+			<div class="mb-3">
+				<p class="blu">
+					Ils ont le plaisir de vous accueillir, sous le thème de l'exubérance et de l'élégance
+					tropicale
+				</p>
+				<p class="beige">
+					Têm o prazer de vos convidar, sob o tema da exuberância e da elegância tropical.
+				</p>
+			</div>
+			<div class="mb-3">
+				<p>15.07.2023 - 16h00</p>
+				<p>R. Conselheiro Dr. Antero P. Leitão 13, 3060-082, Portugal</p>
+			</div>
 
 			<div>
-				<p>
+				<p class="blu">
 					Deux possibilités d'hébergement : - camping sur place. - hôtel et gîtes dans les environs
 					(à définir).
 				</p>
-				<p>
+				<p class="beige">
 					Duas possibilidades de alojamento: - acampamento no local. - hotel o alojamento nas
 					proximidades (a definir).
 				</p>
@@ -96,28 +114,35 @@
 	} */
 	@keyframes photos {
 		0% {
-			background-image: url(/gif_A.webp);
+			background-image: url(/A_low.webp);
 			transform: scale(1) rotate(0deg);
 		}
 
 		25% {
-			background-image: url(/gif_B.webp);
+			background-image: url(/B_low.webp);
 			transform: scale(1.5) rotate(-180deg);
 		}
 
 		50% {
-			background-image: url(/gif_C.webp);
+			background-image: url(/C_low.webp);
 			transform: scale(1) rotate(180deg);
 		}
 
 		75% {
-			background-image: url(/gif_D.webp);
+			background-image: url(/D_low.webp);
 			transform: scale(2) rotate(-25deg);
 		}
 		100% {
-			background-image: url(/gif_A.webp);
+			background-image: url(/A_low.webp);
 			transform: scale(1) rotate(0deg);
 			/* content: 'babababa'; */
 		}
+	}
+
+	.beige {
+		color: rgb(202, 142, 91);
+	}
+	.blu {
+		color: rgb(105, 87, 152);
 	}
 </style>
