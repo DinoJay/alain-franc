@@ -10,7 +10,7 @@
 
 <div
 	class="bg-contain bg bg-center h-screen w-screen"
-	style="{`background-image: url(/gif_A_low.webp); transform: rotate(-0deg) `} "
+	style="{`background-image: url(/gif_A.webp); transform: rotate(-0deg) `} "
 >
 	{#if visible}
 		<div class="w-full h-full bg-white text" transition:fade>
@@ -96,7 +96,7 @@
 	} */
 	@keyframes photos {
 		0% {
-			background-image: url(/gif_A_low.webp);
+			background-image: url(/gif_A.webp);
 			transform: scale(1) rotate(0deg);
 		}
 
