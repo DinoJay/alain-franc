@@ -14,28 +14,30 @@
 >
 	{#if visible}
 		<div class="w-full h-full bg-white text text-center " transition:fade>
-			<div class="mb-3">
+			<div class="mb-6">
 				<p class="blu">
 					Ils font "Tutu-panpan" à l'automne et emménagent ensemble au printemps suivant.
 				</p>
 				<p class="beige">Fazem "Tchiki boum" no Outono e mudam-se juntos na Primavera seguinte.</p>
 			</div>
 
-			<div class="mb-3">
+			<div class="mb-6">
 				<p class="blu">Ils rénovent une maison de vacances et rêvent d'y célébrer leur union.</p>
 				<p class="beige">
 					Eles estão a renovar uma casa de férias e sonham em celebrar a sua união lá.
 				</p>
 			</div>
-			<div class="mb-3">
+			<div class="mb-6">
 				<p class="blu">Ensemble ils vont se dire Oui !</p>
 				<p class="beige">Juntos eles dirão Sim!</p>
 			</div>
 			<div class="my-24">
-				<p class="text-2xl font-bold">Alain + François</p>
-				<p><span class="blu">se marient</span> / <span class="beige">casam</span></p>
+				<h1 class="text-2xl font-bold">Alain + François</h1>
+				<p class="mb-3"><span class="blu ">se marient</span> / <span class="beige">casam</span></p>
+				<p class="italic">15.07.2023 - 16h00</p>
 			</div>
-			<div class="mb-3">
+			<div class="mb-6">
+				<h2 class="text-xl mb-2">↓</h2>
 				<p class="blu">
 					Ils ont le plaisir de vous accueillir, sous le thème de l'exubérance et de l'élégance
 					tropicale
@@ -44,9 +46,12 @@
 					Têm o prazer de vos convidar, sob o tema da exuberância e da elegância tropical.
 				</p>
 			</div>
-			<div class="mb-3">
-				<p>15.07.2023 - 16h00</p>
-				<p>R. Conselheiro Dr. Antero P. Leitão 13, 3060-082, Portugal</p>
+			<div class="mb-6">
+				<p>
+					<a href="https://maps.google.com/?q=40.40436721930026,-8.52993730540731"
+						>R. Conselheiro Dr. Antero P. Leitão 13, 3060-082, Portugal</a
+					>
+				</p>
 			</div>
 
 			<div>
