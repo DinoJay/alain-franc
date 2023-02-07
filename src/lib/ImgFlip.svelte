@@ -5,7 +5,7 @@
 
 	setTimeout(() => {
 		visible = true;
-	}, 8300);
+	}, 8600);
 </script>
 
 <div
