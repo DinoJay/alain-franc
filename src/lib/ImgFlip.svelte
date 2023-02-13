@@ -32,11 +32,18 @@
 				<p class="beige">Juntos eles dirão Sim!</p>
 			</div>
 			<div class="my-24">
-				<h1 class="text-2xl font-bold">Alain + François</h1>
+				<h1 class="text-2xl font-bold mb-6">
+					<span>A</span><span>l</span><span>a</span><span>i</span><span>n</span> <span>+</span>
+					<span>F</span><span>r</span><span>a</span><span>n</span><span>ç</span><span>o</span><span
+						>i</span
+					><span>s</span>
+				</h1>
 				<p class="mb-3"><span class="blu ">se marient</span> / <span class="beige">casam</span></p>
 				<p class="italic">15.07.2023 - 16h00</p>
 				<p>
-					<a href="https://maps.google.com/?q=40.40436721930026,-8.52993730540731"
+					<a
+						class="text-blue-400"
+						href="https://maps.google.com/?q=40.40436721930026,-8.52993730540731"
 						>R. Conselheiro Dr. Antero P. Leitão 13, 3060-082, Portugal</a
 					>
 				</p>
@@ -144,5 +151,77 @@
 	}
 	.blu {
 		color: rgb(105, 87, 152);
+	}
+
+	h1 span {
+		animation: bounce 0.1s ease infinite alternate;
+		position: relative;
+		top: 20px;
+		display: inline-block;
+		-webkit-animation: bounce 0.3s ease infinite alternate;
+		font-size: 50px;
+		/* color: #fff; */
+		ext-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc,
+			0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent;
+	}
+
+	h1 span:nth-child(2) {
+		-webkit-animation-delay: 0.1s;
+	}
+
+	h1 span:nth-child(3) {
+		-webkit-animation-delay: 0.2s;
+	}
+
+	h1 span:nth-child(4) {
+		-webkit-animation-delay: 0.3s;
+	}
+
+	h1 span:nth-child(5) {
+		-webkit-animation-delay: 0.4s;
+	}
+
+	h1 span:nth-child(6) {
+		-webkit-animation-delay: 0.5s;
+	}
+
+	h1 span:nth-child(7) {
+		-webkit-animation-delay: 0.6s;
+	}
+
+	h1 span:nth-child(8) {
+		-webkit-animation-delay: 0.2s;
+	}
+
+	h1 span:nth-child(9) {
+		-webkit-animation-delay: 0.3s;
+	}
+
+	h1 span:nth-child(10) {
+		-webkit-animation-delay: 0.4s;
+	}
+
+	h1 span:nth-child(11) {
+		-webkit-animation-delay: 0.5s;
+	}
+
+	h1 span:nth-child(12) {
+		-webkit-animation-delay: 0.6s;
+	}
+
+	h1 span:nth-child(13) {
+		-webkit-animation-delay: 0.7s;
+	}
+
+	h1 span:nth-child(14) {
+		-webkit-animation-delay: 0.8s;
+	}
+
+	@keyframes bounce {
+		100% {
+			top: -20px;
+			text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc,
+				0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 0 #ccc, 0 50px 25px rgba(0, 0, 0, 0.2);
+		}
 	}
 </style>
