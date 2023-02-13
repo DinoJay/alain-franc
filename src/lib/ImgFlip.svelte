@@ -35,23 +35,18 @@
 				<h1 class="text-2xl font-bold">Alain + François</h1>
 				<p class="mb-3"><span class="blu ">se marient</span> / <span class="beige">casam</span></p>
 				<p class="italic">15.07.2023 - 16h00</p>
-			</div>
-			<div class="mb-6">
-				<h2 class="text-xl mb-2">↓</h2>
-				<p class="blu">
-					Ils ont le plaisir de vous accueillir, sous le thème de l'exubérance et de l'élégance
-					tropicale
-				</p>
-				<p class="beige">
-					Têm o prazer de vos convidar, sob o tema da exuberância e da elegância tropical.
-				</p>
-			</div>
-			<div class="mb-6">
 				<p>
 					<a href="https://maps.google.com/?q=40.40436721930026,-8.52993730540731"
 						>R. Conselheiro Dr. Antero P. Leitão 13, 3060-082, Portugal</a
 					>
 				</p>
+			</div>
+			<div class="mb-6">
+				<h2 class="text-xl mb-2">↓</h2>
+				<p class="blu">
+					Ils ont le plaisir de vous accueillir, sous le thème de l'élégance tropicale
+				</p>
+				<p class="beige">Têm o prazer de vos convidar, sob o tema da elegância tropical.</p>
 			</div>
 
 			<div>
