@@ -136,7 +136,7 @@
 		}
 
 		75% {
-			background-image: url(/D_low.webp);
+			background-image: url(/E_low.webp);
 			transform: scale(2) rotate(-25deg);
 		}
 		100% {
