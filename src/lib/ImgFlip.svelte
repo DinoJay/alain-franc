@@ -159,7 +159,7 @@
 		top: 20px;
 		display: inline-block;
 		-webkit-animation: bounce 0.3s ease infinite alternate;
-		font-size: 50px;
+		font-size: 35px;
 		/* color: #fff; */
 		ext-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc,
 			0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent;
